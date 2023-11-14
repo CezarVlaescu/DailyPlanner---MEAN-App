@@ -1,0 +1,25 @@
+/* custom-table.component.css */
+
+.custom-table {
+    width: 100%; /* Set the table width */
+    table-layout: fixed; /* Use fixed table layout for equal column sizes */
+
+    th {
+        text-align: left;
+        padding: 18px;
+    }
+
+    td {
+        text-align: left;
+        padding: 18px;
+    }
+
+    .mat-column-position{
+        flex: 0 0 100px;
+        width: 300px;
+    }
+}
+
+
+  
+  
