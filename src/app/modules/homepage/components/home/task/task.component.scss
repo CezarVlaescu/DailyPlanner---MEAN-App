@@ -1,24 +1,32 @@
-/* custom-table.component.css */
+/* Container for the task component */
+.task-container {
+    height: calc(100vh - 100px); 
+  }
+  
+  .custom-table {
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(228, 26, 26, 0.05); 
+    color: #ddd; 
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .custom-table th, .custom-table td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    padding: 12px; 
+  }
+  
+  .custom-table tr:hover {
+    background-color: rgba(214, 17, 17, 0.1); 
+  }
+  
+  .custom-table th {
+    background-color: rgba(241, 108, 108, 0.15); 
+    color: #fff; 
+  }
+  
 
-.custom-table {
-    width: 100%; /* Set the table width */
-    table-layout: fixed; /* Use fixed table layout for equal column sizes */
-
-    th {
-        text-align: left;
-        padding: 18px;
-    }
-
-    td {
-        text-align: left;
-        padding: 18px;
-    }
-
-    .mat-column-position{
-        flex: 0 0 100px;
-        width: 300px;
-    }
-}
 
 
   

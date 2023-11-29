@@ -1,4 +1,5 @@
-<table mat-table [dataSource]="dataSource" class="mat-elevation-z8 custom-table">
+<div class="task-container">
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 custom-table">
   
     <!-- Position Column -->
     <ng-container matColumnDef="position">
@@ -14,4 +15,6 @@
   
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
+  </table>
+</div>
+

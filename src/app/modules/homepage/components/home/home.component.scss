@@ -1,0 +1,18 @@
+/* Container for the main layout */
+.layout-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  /* Style for the left panel which will contain the <app-task> component */
+  .left-panel {
+    width: 50%; /* Adjust the width as necessary */
+    padding: 30px; /* Add some padding around the content */
+  }
+  
+  /* Style for the middle and right panels */
+  .middle-panel, .right-panel {
+    width: 40%; /* Adjust the width as necessary */
+    padding: 10px; /* Add some padding around the content */
+  }
+  
